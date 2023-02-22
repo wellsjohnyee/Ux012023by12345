@@ -121,7 +121,12 @@
   }
   .navbar-nav li a:hover, .navbar-nav li.active a {
     color: #f4511e !important;
+    font-weight: bold;
     background-color: #fff !important;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a:hover {
+    color: lime !important;
+    font-weight: bolder;
   }
   .navbar-default .navbar-toggle {
     border-color: transparent;
@@ -138,6 +143,11 @@
   #myfooter {
     background: linear-gradient(to top, #0000ff 0%, #ffffff 100%);
   }
+  .btn-info {
+    color: #fff;
+    background-color: blue;
+    border-color: lime;
+}
   .slideanim {visibility:hidden;}
   .slide {
     animation-name: slide;
@@ -167,4 +177,24 @@
       -webkit-transform: translateY(0%);
     }
   }
- 
+  .smallimage {
+    float: right;
+  }
+  h2.well {
+    background: linear-gradient(to top, #0000ff 0%, #ffffff 100%);
+    color:white;
+  }
+  h2.well:hover {
+     color:yellowgreen;
+  }
+  .dropdown-menu {
+    background-color: blue;
+    }
+    .dropdown-menu li.active a {
+    color: #fff !important;
+    background-color:blue !important;
+    }
+    .dropdown-menu li a:hover {
+    color: #fff !important;
+    background-color: blue !important;
+    }
