@@ -36,6 +36,7 @@
   .logo {
     color: blue;
     font-size: 200px;
+    margin: 30px 40px;
   }
   .thumbnail {
     padding: 0 0 15px 0;
@@ -198,3 +199,12 @@
     color: #fff !important;
     background-color: blue !important;
     }
+
+    img.myimg {
+      float: right;
+      border: 2px solid double;
+      border-radius: 4px;
+      padding: 5px;
+      width: 150px;
+      margin-left: 15px;
+  }
