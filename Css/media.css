@@ -15,7 +15,8 @@
         background-position: center center;
         background-size: 40%;
         background-repeat: no-repeat;
-    }
+        background-position: center;
+      }
     .col-xs-3 {
         width: 10%;
     }

@@ -11,9 +11,9 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <script src="js/loading.js"></script>
-  <link rel="stylesheet" href="Css/loading.css" /> 
-  <link rel="stylesheet" href="Css/index.css" />
-  <link rel="stylesheet" href="Css/media.css" /> 
+  <link rel="stylesheet" href="css/index.css" />
+  <link rel="stylesheet" href="css/media.css" />
+  <link rel="stylesheet" href="css/loading.css" /> 
   <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
@@ -37,6 +37,7 @@
             <li><a href="#about">About</a></li>
             <li><a href="#taskone">Task One</a></li>
             <li><a href="#tasktwo">Task Two</a></li>
+            <li><a href="#taskmore">Task More</a></li>
           </ul>
       </li>    
 
@@ -77,7 +78,8 @@
   <div class="row">
     <div class="col-sm-8">
       <h2>About Company Page</h2>
-      <a href="/Ux012023by12345/download/XXXXX User Experience - Assessment.docx" download>Download Subject Assessment</a>
+      <a href="/download/XXXXX User Experience - Assessment.docx" download>Download Subject Assessment</a>
+      <!-- <a href="/Ux012023by12345/download/XXXXX User Experience - Assessment.docx" download>Download Subject Assessment</a> -->
       <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4><br>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       <br><button class="btn btn-default btn-lg">Get in Touch</button>
@@ -87,7 +89,7 @@
       <br><br><a href="https://forms.gle/ymQvsjmGSew8es3u6" target="blank" class="btn btn-info btn-lg">
         Fill the Feedback Form Task 5 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button></a><br />
       <br><a href="https://docs.google.com/spreadsheets/d/1RDLfwvcBUFqlXlCkB9VUHoqn-nLuQzE3Hp8En_djDhk/edit?usp=sharing" class="btn btn-info btn-lg">
-        View the Feedback Result Task 5</button></a><br>   
+        View the Feedback Result Task 6</button></a><br>   
     </div>
   </div>
 </div>
@@ -169,6 +171,93 @@
   </div>
 </div>
 </div> 
+
+<!-- Container (Task more Section) -->
+<div id="taskmore">
+  <br /> <br />
+<div class="container-fluid bg-grey">
+  <div class="row">
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-envelope logo slideanim"></span>      
+    </div>
+    <div class="col-sm-8">
+      <h2>More Tasks</h2>    
+      <div class="panel-group" id="accordion">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Task 4 Customer Survey</a>
+          </h4>
+        </div>
+        <div id="collapse1" class="panel-collapse collapse in">
+          <div class="panel-body">
+          <asp:HyperLink ID="HyperLink1" runat="server" Class="btn btn-primary" Font-Bold="True" 
+              NavigateUrl="https://docs.google.com/forms/d/e/1FAIpQLSccE14kghq9FFHNJvmQy55ac2vKl4xb5rzWmmlieJpFT2DsQw/viewform"
+              Target="_blank">Customer Survey</asp:HyperLink>
+          <hr />    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Task 5 Get Feedback</a>
+          </h4>
+        </div>
+        <div id="collapse2" class="panel-collapse collapse">
+          <div class="panel-body">
+           <asp:HyperLink ID="HyperLink2" runat="server" Class="btn btn-primary" Font-Bold="True" 
+              NavigateUrl="https://docs.google.com/spreadsheets/d/10zGFSV-LrsDHKGt1eyQRP3HFFHGMGx0yNUgKjJu784Q/edit?usp=sharing"
+              Target="_blank">Feedback Review</asp:HyperLink>
+          <hr /> Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Task 6 Evaluated Site</a>
+          </h4>
+        </div>
+        <div id="collapse3" class="panel-collapse collapse">
+          <div class="panel-body">
+          <h3>That part is under the construction...</h3>    
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Task 7 Check List</a>
+          </h4>
+        </div>
+        <div id="collapse4" class="panel-collapse collapse">
+          <div class="panel-body">
+            <img src="images/checklist.png" width="100%" />
+          </div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">Task 8 File Structure</a>
+          </h4>
+        </div>
+        <div id="collapse5" class="panel-collapse collapse">
+          <div class="panel-body">
+            <img src="images/filesstructure.png" width="100%" />
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>  
+    </div>
+  </div>
+</div>
 
 <!-- Container (Services Section) -->
 <div id="services" class="container-fluid text-center">

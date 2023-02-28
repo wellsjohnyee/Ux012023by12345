@@ -84,7 +84,7 @@
   .panel-heading {
     color: #fff !important;
     background: linear-gradient(to top, #0000ff 0%, #ffffff 100%);
-    padding: 25px;
+    padding: 10px 25px;
     border-bottom: 1px solid transparent;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
